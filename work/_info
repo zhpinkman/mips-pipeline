@@ -1,0 +1,234 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+valu_plus
+Z1 !s100 z?8fli4LYR]Y6=N<JKRDS0
+Z2 I:2:lgh`0GoTEhj>Ej2em>3
+Z3 Vbc`PYniVE7j]eT7Yg:KH01
+Z4 dF:\Programming\University\04_Computer_Architecture\CA_04\ModelSim
+Z5 w1554944386
+Z6 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/alu_plus.v
+Z7 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/alu_plus.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/alu_plus.v|
+Z10 o-work work -O0
+Z11 !s108 1558613623.239000
+Z12 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/alu_plus.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDP
+Z13 I33j0SZ`ElzU1Tdh:YV1jh2
+Z14 VmCfgGa3glblPLE`gLgfR20
+R4
+Z15 w1558614332
+Z16 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/DP.v
+Z17 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/DP.v
+L0 1
+R8
+r1
+31
+R10
+n@d@p
+Z18 !s100 [TfGbZTla`DA47BTlh<I23
+Z19 !s108 1558614338.221000
+Z20 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/DP.v|
+Z21 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/DP.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfull_alu
+Z22 !s100 b7mhRz@>B@1KFfFKb@NEU1
+Z23 IIUW<RT0z8cmB;N6YYBczc1
+Z24 VN9OQD5do:iDnQ]3L=WnUM2
+R4
+Z25 w1554970185
+Z26 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/full_ALU.v
+Z27 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/full_ALU.v
+L0 1
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/full_ALU.v|
+R10
+Z29 !s108 1558613624.001000
+Z30 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/full_ALU.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vinstruction_mem
+Z31 IPXHzHg=g08YQPSFDTzS3C0
+Z32 Vm`g2<agR5Bk?[D?<jOBS^1
+R4
+Z33 w1558614335
+Z34 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/instruction_mem.v
+Z35 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/instruction_mem.v
+L0 1
+R8
+r1
+31
+Z36 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/instruction_mem.v|
+R10
+Z37 !s100 YGH4R3k@GPB0bg37L446l2
+Z38 !s108 1558614357.162000
+Z39 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/instruction_mem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlayer_reg
+!i10b 1
+!s100 mSR<eU350jY<RT^7e=m`X3
+I^FjbVjP:eUPi?JnD?kbI93
+V7F<]B3=BInP;ZaA0o6Bf]1
+R4
+w1558614878
+8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/layer_reg.v
+FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/layer_reg.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1558614879.886000
+!s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/layer_reg.v|
+!s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/layer_reg.v|
+!s101 -O0
+R10
+vmemory
+Z40 !s100 Z8QzPSzDVal6<fFKam:c`0
+Z41 IeVAM5RZ3]ELGTF[i5L:K:2
+Z42 VmgTh^EV1>o?l623ZDiEBJ3
+R4
+Z43 w1555316245
+Z44 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/memory.v
+Z45 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/memory.v
+L0 1
+R8
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/memory.v|
+R10
+Z47 !s108 1558613623.512000
+Z48 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/memory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux_2
+Z49 !s100 M]ALBiTcfU0?fRV2_WkWU0
+Z50 I;`O`87J^>N4kRRd?1mI=U1
+Z51 VZFVa:Fnabmbg@SjT2:llP2
+R4
+Z52 w1554943819
+Z53 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_2.v
+Z54 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_2.v
+L0 1
+R8
+r1
+31
+Z55 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_2.v|
+R10
+Z56 !s108 1558613622.345000
+Z57 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux_4
+Z58 !s100 M>5GknUdjTbdSTFFU=ILE3
+Z59 IW80GMWO7E]e5[X`jaE3_W2
+Z60 Vo1>S9_W7g=4ORDV8gZD_R2
+R4
+Z61 w1555132741
+Z62 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_4.v
+Z63 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_4.v
+L0 1
+R8
+r1
+31
+Z64 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_4.v|
+R10
+Z65 !s108 1558613623.750000
+Z66 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpc_register
+Z67 !s100 >Bd8fcQ`O09[@Y2TKKHih2
+Z68 IzLh0jmKi3ZN>_4XTocP3Y2
+Z69 VgjgLnGc5UN<Q[J1Qz4E7F2
+R4
+Z70 w1554944936
+Z71 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/pc_register.v
+Z72 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/pc_register.v
+L0 1
+R8
+r1
+31
+Z73 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/pc_register.v|
+R10
+Z74 !s108 1558613622.636000
+Z75 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/pc_register.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregister
+Z76 IGzlJd2O1R[=K]Zg4C6MG93
+Z77 V[ISL4]faKX:JbBANY8z@X3
+R4
+Z78 w1558614579
+Z79 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register.v
+Z80 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register.v
+L0 1
+R8
+r1
+31
+R10
+!i10b 1
+Z81 !s100 5KT8;2NDj7jMXK;aX@:QT3
+!s85 0
+Z82 !s108 1558614581.448000
+Z83 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register.v|
+Z84 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register.v|
+!s101 -O0
+vregister_file
+Z85 !s100 R8n6S<eBfRKe1[Ge<4ATj2
+Z86 IZIo^oK^;Q9ZKB0`12E9HN3
+Z87 VVc9m3B4dD[Pn981DZh0D`2
+R4
+Z88 w1555317975
+Z89 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register_file.v
+Z90 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register_file.v
+L0 1
+R8
+r1
+31
+Z91 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register_file.v|
+R10
+Z92 !s108 1558613624.516000
+Z93 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register_file.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsign_extender
+Z94 !s100 FE36K[=[Wb]T5dC`1nA<90
+Z95 IaVC^QNB0FdSIMZ20gbbc82
+Z96 Ve=FWcH9nUOhF0lUBnjaf73
+R4
+Z97 w1554944158
+Z98 8F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/sign_extender.v
+Z99 FF:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/sign_extender.v
+L0 1
+R8
+r1
+31
+Z100 !s90 -reportprogress|300|-work|work|F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/sign_extender.v|
+R10
+Z101 !s108 1558613622.983000
+Z102 !s107 F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/sign_extender.v|
+!i10b 1
+!s85 0
+!s101 -O0

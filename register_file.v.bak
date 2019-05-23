@@ -1,0 +1,12 @@
+module register_file(input clk, input [1:0] r1_add, r2_add, en_wind, input[15:0] write_data, input write_signal, output reg[15:0] r1, r2);
+  reg [15:0] regs [0:7] ;
+  always @(r1_add, r2_add, en_wind) begin : read
+    r1 = regs[{en_wind, r1_add}];
+    r2 = regs[{en_wind, r2_add}];
+  end
+  always @(posedge clk) begin : write
+    if(write_data == 1'b1) begin
+      regs[{en_wind, r1_add}] <= write_data; // always writing on the Ri (first input)
+    end
+  end
+endmodule 

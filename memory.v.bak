@@ -1,0 +1,9 @@
+module memory (input [9:0] adr, output reg[15:0] out,input[15:0] write_data, input mem_read, mem_write);
+  reg [9:0] regs [15:0];
+  always @(adr, mem_read, mem_write) begin
+    if(mem_write == 1'b1)
+      regs[adr] <= write_data;
+    else if(mem_read == 1'b1)
+      out =  regs[adr];
+  end
+endmodule
