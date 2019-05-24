@@ -1,6 +1,8 @@
-module instruction_mem(input clk, input [9:0] adr, output reg[31:0] inst);
-  reg [15:0] regs[0:1024];
-  reg [9:0] cnt = 10'b0;
+`include "configs.v"
+
+module instruction_mem(input clk, input [`ADDRESS_LEN-1:0] adr, output reg[`WORD_LEN-1:0] inst);
+  reg [`WORD_LEN-1:0] regs[0:`MEMORY_SIZE-1];
+  reg [`ADDRESS_LEN-1:0] cnt = 0;
   initial begin
  
   

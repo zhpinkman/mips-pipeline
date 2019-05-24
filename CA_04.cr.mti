@@ -1,30 +1,12 @@
-F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/full_ALU.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/full_ALU.v
+F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/control_unit.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/control_unit.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module full_alu
+-- Compiling module control_unit
 
 Top level modules:
-	full_alu
+	control_unit
 
-} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register_file.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register_file.v
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/configs.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/configs.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module register_file
-
-Top level modules:
-	register_file
-
-} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/alu_plus.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/alu_plus.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module alu_plus
-
-Top level modules:
-	alu_plus
-
-} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_4.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_4.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module mux_4
-
-Top level modules:
-	mux_4
 
 } {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/memory.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/memory.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -33,6 +15,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	memory
 
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/layer_reg.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/layer_reg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module layer_reg
+-- Compiling module layer_reg_ID
+-- Compiling module layer_reg_EXE
+-- Compiling module layer_reg_MEM
+
+Top level modules:
+	layer_reg
+	layer_reg_ID
+	layer_reg_EXE
+	layer_reg_MEM
+
 } {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_2.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_2.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module mux_2
@@ -40,12 +35,47 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	mux_2
 
-} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/pc_register.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/pc_register.v
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/full_ALU.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/full_ALU.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module pc_register
+-- Compiling module full_alu
 
 Top level modules:
-	pc_register
+	full_alu
+
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_4.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_4.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux_4
+
+Top level modules:
+	mux_4
+
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/alu_plus.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/alu_plus.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu_plus
+
+Top level modules:
+	alu_plus
+
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/instruction_mem.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/instruction_mem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module instruction_mem
+
+Top level modules:
+	instruction_mem
+
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register_file.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register_file.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module register_file
+
+Top level modules:
+	register_file
 
 } {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/sign_extender.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/sign_extender.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
