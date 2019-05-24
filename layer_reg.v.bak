@@ -73,9 +73,8 @@ module layer_reg_MEM(input clk, rst, WB_en, MEM_read, output reg WB_en_out, MEM_
       instruction_out <= instruction_in;
       WB_en_out <= WB_en;
       MEM_read_out <= MEM_read;
-      MEM_write_out <= MEM_write;
       ALU_result_out <= ALU_result;
-      ST_value_out <= ST_value;
+      WB_MEM_out <= MEM_out;
     end
   end
   

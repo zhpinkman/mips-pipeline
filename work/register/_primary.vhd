@@ -2,7 +2,7 @@ library verilog;
 use verilog.vl_types.all;
 entity \register\ is
     generic(
-        n               : integer := 8
+        n               : integer := 32
     );
     port(
         clk             : in     vl_logic;

@@ -14,7 +14,7 @@ module layer_reg(input clk, rst, hazard_detected_signal, input[`ADDRESS_LEN-1:0]
 endmodule
 
 
-module layer_reg_ID(input clk, rst, hazard_detected_signal, WB_en, MEM_read, MEM_write, br_taken, output reg WB_en_out, MEM_read_out, MEM_write_out, br_taken_out, input[1:0]EXE_function_in, output reg[1:0]EXE_function_out,  input[`ADDRESS_LEN-1:0] pc_in, instruction_in, reg1, reg2, output reg [`ADDRESS_LEN-1:0] pc_out, instruction_out, reg1_out, reg2_out );
+module layer_reg_ID(input clk, rst, hazard_detected_signal, WB_en, MEM_read, MEM_write, br_taken, output reg WB_en_out, MEM_read_out, MEM_write_out, br_taken_out, input[2:0]EXE_function_in, output reg[2:0]EXE_function_out,  input[`ADDRESS_LEN-1:0] pc_in, instruction_in, reg1, reg2, output reg [`ADDRESS_LEN-1:0] pc_out, instruction_out, reg1_out, reg2_out );
   always@(posedge clk, posedge rst)begin
     if(rst)begin
       pc_out <= 0;

@@ -5,15 +5,15 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	control_unit
 
-} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/configs.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/configs.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-
 } {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/memory.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/memory.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module memory
 
 Top level modules:
 	memory
+
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/configs.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/configs.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 } {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/layer_reg.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/layer_reg.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -42,6 +42,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	full_alu
 
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module register
+
+Top level modules:
+	register
+
 } {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_4.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/mux_4.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module mux_4
@@ -56,19 +63,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	alu_plus
 
-} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register.v
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/forwarding_unit.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/forwarding_unit.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module register
+-- Compiling module forwarding_unit
 
 Top level modules:
-	register
+	forwarding_unit
 
-} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/instruction_mem.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/instruction_mem.v
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/DP.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/DP.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module instruction_mem
+-- Compiling module MIPS
 
 Top level modules:
-	instruction_mem
+	MIPS
 
 } {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register_file.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/register_file.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -76,6 +83,20 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	register_file
+
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/TB.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/TB.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/hazard_detection_unit.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/hazard_detection_unit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module hazard_detection_unit
+
+Top level modules:
+	hazard_detection_unit
 
 } {} {}} F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/sign_extender.v {1 {vlog -work work F:/Programming/University/04_Computer_Architecture/CA_04/ModelSim/sign_extender.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012

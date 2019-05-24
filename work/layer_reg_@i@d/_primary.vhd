@@ -13,8 +13,8 @@ entity layer_reg_ID is
         MEM_read_out    : out    vl_logic;
         MEM_write_out   : out    vl_logic;
         br_taken_out    : out    vl_logic;
-        EXE_function_in : in     vl_logic_vector(1 downto 0);
-        EXE_function_out: out    vl_logic_vector(1 downto 0);
+        EXE_function_in : in     vl_logic_vector(2 downto 0);
+        EXE_function_out: out    vl_logic_vector(2 downto 0);
         pc_in           : in     vl_logic_vector(31 downto 0);
         instruction_in  : in     vl_logic_vector(31 downto 0);
         reg1            : in     vl_logic_vector(31 downto 0);

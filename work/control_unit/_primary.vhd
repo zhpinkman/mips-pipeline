@@ -6,7 +6,8 @@ entity control_unit is
         WB_en           : out    vl_logic;
         MEM_read        : out    vl_logic;
         MEM_write       : out    vl_logic;
-        EXE_function    : out    vl_logic_vector(1 downto 0);
-        is_br           : out    vl_logic_vector(1 downto 0)
+        EXE_function    : out    vl_logic_vector(2 downto 0);
+        is_br           : out    vl_logic_vector(1 downto 0);
+        immediate_signal: out    vl_logic
     );
 end control_unit;
